@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,500&family=Dosis:wght@600&family=Lora&family=Marck+Script&family=Montserrat&family=Rubik&display=swap');
+
+/*
+    font-family: 'Archivo Narrow', sans-serif;
+
+    font-family: 'Dosis', sans-serif;
+
+    font-family: 'Lora', serif;
+
+    font-family: 'Marck Script', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Rubik', sans-serif;
+
+*/
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h2#logo-name {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.6rem;
+}
+
+p#logo-subname {
+  font-family: 'Lora', serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: -0.3rem;
+}
+
+li {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+.section-subtitle {
+  font-family: 'Rubik';
+}
+
+.section-title {
+  font-family: 'Lora';
+  font-size: 1.4rem;
+}
+
+p {
+  font-family: 'Rubik', sans-serif;
+  color: rgba(44, 48, 46, 1);
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  text-align: justify;
+}
+
+body {
+  background: #abbaab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #ffffff,
+    #abbaab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #ffffff, #abbaab);
+}
+
+#page-wrapper {
+  min-height: 100vh;
+}
+
+section {
+  margin: 1.2rem;
+}
+
+td,
+tr {
+  padding: 0 10px;
+}
+
+.text-link {
+  color: rgb(16, 89, 163);
+  font-weight: 600;
+}
+
+.text-link:hover {
+  background-color: orange;
+  color: white;
+}
+
+section#navbar {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-evenly;
+
+  background: rgba(244, 244, 181, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#logo-name {
+  margin-left: 1rem;
+  text-align: center;
+  line-height: 1.5rem;
+  letter-spacing: 0.02rem;
+  flex-wrap: nowrap;
+}
+
+.navbar-col-right {
+  flex: 2;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 1%;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-items:hover {
+  background-color: #eccc68;
+  color: white;
+}
+
+i:hover {
+  color: cornflowerblue;
+}
+
+.hero-pic {
+  height: 7rem;
+  border-radius: 15px;
+  background: #f1f2b5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f1f2b5,
+    #135058
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f1f2b5,
+    #135058
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 2px solid white;
+}
+
+.hero-pic:hover {
+  animation: change-gradient 1s ease-in-out;
+}
+
+section.main {
+  display: flex;
+  justify-content: flex-start;
+  align-content: space;
+}
+
+.header-space {
+  margin-top: -1rem;
+  text-align: left;
+  line-height: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+#developer-span {
+  font-family: 'Archivo Narrow';
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-shadow: 5px 3px 20px orangered;
+}
+
+.text-space {
+  margin-top: -1rem;
+  padding: 1.2rem 1.5rem 0 1.5rem;
+  line-height: 1.5rem;
+}
+
+.hero-pic-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 0.5rem;
+}
+
+.main-wrapper {
+  margin-top: 0.5rem;
+  padding: 1rem 1rem 0.5rem 1rem;
+  width: 80vw;
+  border-radius: 1rem;
+  background: rgba(244, 244, 181, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+i {
+  margin: 0 1vw;
+  color: orangered;
+}
+
+#secondary-card {
+  margin-top: 0.5rem;
+  padding: 1rem 1rem 0.5rem 1rem;
+  border-radius: 1rem;
+  background: rgba(244, 244, 181, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.contact-text-space{
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+
+#contact-wrapper {
+  width: 80vw;
+  margin:auto;
+  display:flex;
+  justify-content: center;
+}
+
+#contact-pic-title-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: space-between;
+}
+
+
+
+
+
+@keyframes change-gradient {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background: #abbaab; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to top,
+      #ffffff,
+      #abbaab
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to top,
+      #ffffff,
+      #abbaab
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 2px solid orangered;
+  }
+
+  100% {
+    background: #00bf8f; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to top,
+      #001510,
+      #00bf8f
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to top,
+      #001510,
+      #00bf8f
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 2px solid dodgerblue;
+  }
+}
+
+@media (max-width: 520px) {
+  .navbar-col-left {
+    flex: 6;
+  }
+
+  .navbar-col-right {
+    display: flex;
+    flex: 6;
+    justify-content: space-evenly;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  li {
+    margin-top: 0.8rem;
+  }
+  section.main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 521px) {
+  section.main {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-wrapper,
+  #secondary-card {
+    width: 80vw;
+  }
+
+  li {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 820px) {
+  section.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .hero-pic-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: space-between;
+    padding: 1.2rem 1.5rem 0 1.5rem;
+  }
+
+  li {
+    font-size: 1.2rem;
+  }
+
+  .main-wrapper {
+    width: 50vw;
+  }
+  #secondary-card {
+    width: 20vw;
+  }
+
+  #react-wrapper {
+    width: 45vw;
+  }
+
+  #python-wrapper {
+    width: 30vw;
+  }
+}
