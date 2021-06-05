@@ -307,12 +307,17 @@ i {
   }
 
   li {
-    margin-top: 0.8rem;
+    margin-top: 1rem;
   }
   section.main {
     display: flex;
     flex-direction: column;
   }
+
+table{
+  font-size:0.7rem;
+}
+
 }
 
 @media (min-width: 521px) {
