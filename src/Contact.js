@@ -40,6 +40,14 @@ export default function Contact() {
               </td>{' '}
               <td> alperenmyung@gmail.com</td>{' '}
             </tr>
+              <tr>
+              {' '}
+              <td>
+                <i class="fa fa-skype"/>
+                <strong>Skype</strong>{' '}
+              </td>{' '}
+              <td> alperen.myung</td>{' '}
+            </tr>
           </table>
         </div>
       </div>
