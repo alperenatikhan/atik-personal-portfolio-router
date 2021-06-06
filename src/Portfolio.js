@@ -26,6 +26,25 @@ export default function Portfolio() {
                 <strong> Love Messages with Changing Backgrounds:</strong> I
                 took the "Quotation Machine" challenge with a different touch
                 and purpose. For changing backgrounds, I used Unsplash API.{' '}
+                Please visit the live version in
+                <a
+                  href="https://love-postcards.stackblitz.io"
+                  className="text-link"
+                  target="_blank"
+                >
+                  {' '}
+                  love-postcards.stackblitz.io{' '}
+                </a>
+                or see the code in
+                <a
+                  className="text-link"
+                  href="https://github.com/alperenatikhan/love-postcards"
+                  target="_blank"
+                >
+                  {' '}
+                  Github repo
+                </a>
+                .
               </p>
             </li>
 
@@ -85,7 +104,7 @@ export default function Portfolio() {
                 retrieving information from scientific articles - such as
                 abstracts, author names, doi numbers and download links. I coded
                 webscrapers for the most prestigious academic portals such as
-                TandfOnline and LinkSpringer.
+                <a href= "https://replit.com/@AlperenAtik/Tandf-explorer-1" className="text-link" target="_blank"> TandfOnline </a> and <a href="https://replit.com/@AlperenAtik/linkspr-explorer" className="text-link" target="_blank">LinkSpringer</a>.
               </p>
             </li>
             <li>
