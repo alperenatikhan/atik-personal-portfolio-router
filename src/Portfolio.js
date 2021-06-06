@@ -54,7 +54,8 @@ export default function Portfolio() {
               <p>
                 <strong> Weather App:</strong> By using OpenWeather API, I made
                 a weather website. Currently, I have been working on
-                location-based weather forecasts and results from world cities.{' '}
+                location-based weather forecasts and results from the major
+                mega-cities.{' '}
               </p>
             </li>
           </ol>

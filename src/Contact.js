@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <section className="main">
+    <section className="main" id="contact-page">
       <div className="main-wrapper" id="contact-wrapper">
         <div className="contact-text-space">
           <table>
@@ -13,7 +13,11 @@ export default function Contact() {
                 <i class="fab fa-github" />
                 <strong>Github</strong>{' '}
               </td>{' '}
-              <td>alperenatikhan</td>{' '}
+              <td>
+                <a href="http://github.com/alperenatikhan/" target="_blank">
+                  alperenatikhan
+                </a>
+              </td>{' '}
             </tr>
             <tr>
               {' '}
@@ -22,7 +26,15 @@ export default function Contact() {
                 <i class="fab fa-facebook" />
                 <strong>Facebook</strong>{' '}
               </td>{' '}
-              <td>Alperen Atik </td>{' '}
+              <td>
+                {' '}
+                <a
+                  href="https://pl-pl.facebook.com/alperen.atik"
+                  target="_blank"
+                >
+                  Alperen Atik
+                </a>{' '}
+              </td>{' '}
             </tr>
             <tr>
               {' '}
@@ -30,7 +42,13 @@ export default function Contact() {
                 <i class="fab fa-whatsapp" />
                 <strong>WhatsApp</strong>{' '}
               </td>{' '}
-              <td> 0048 731 166 245</td>{' '}
+              <td>
+                {' '}
+                <a href="https://wa.me/48731166245" target="_blank">
+                  {' '}
+                  0048 731 166 245
+                </a>
+              </td>{' '}
             </tr>
             <tr>
               {' '}
@@ -38,15 +56,25 @@ export default function Contact() {
                 <i class="fas fa-at" />
                 <strong>E-mail</strong>{' '}
               </td>{' '}
-              <td> alperenmyung@gmail.com</td>{' '}
+              <td>
+                <a href="mailto:alperenmyung@gmail.com" target="_blank">
+                  {' '}
+                  alperenmyung@gmail.com
+                </a>
+              </td>{' '}
             </tr>
-              <tr>
+            <tr>
               {' '}
               <td>
-                <i class="fa fa-skype"/>
+                <i class="fa fa-skype" />
                 <strong>Skype</strong>{' '}
               </td>{' '}
-              <td> alperen.myung</td>{' '}
+              <td>
+                {' '}
+                <a href="http://join.skype.com/BPFTsBYJjDMs" target="_blank">
+                  alperen.myung{' '}
+                </a>
+              </td>{' '}
             </tr>
           </table>
         </div>

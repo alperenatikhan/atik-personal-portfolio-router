@@ -15,19 +15,35 @@
 
 */
 
- body {
-            animation: fadeIn ease-in 3s;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-        @keyframes fadeIn {
-            0% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
+p {
+  max-width: 55ch;
+}
+
+#contact-page {
+  display: flex;
+  height: 55vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-wrapper {
+  margin: auto;
+}
+
+body {
+  animation: fadeIn ease-in 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 a {
   color: black;
@@ -89,6 +105,10 @@ section {
 td,
 tr {
   padding: 0 10px;
+}
+
+td {
+  font-size: 1rem;
 }
 
 .text-link {
@@ -231,16 +251,15 @@ i {
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.contact-text-space{
+.contact-text-space {
   font-size: 1rem;
   line-height: 1rem;
 }
 
-
 #contact-wrapper {
   width: 80vw;
-  margin:auto;
-  display:flex;
+  margin: auto;
+  display: flex;
   justify-content: center;
 }
 
@@ -250,10 +269,6 @@ i {
   justify-content: flex-start;
   align-content: space-between;
 }
-
-
-
-
 
 @keyframes change-gradient {
   0% {
@@ -314,10 +329,9 @@ i {
     flex-direction: column;
   }
 
-table{
-  font-size:0.7rem;
-}
-
+  td {
+    font-size: 0.6rem;
+  }
 }
 
 @media (min-width: 521px) {
@@ -332,6 +346,10 @@ table{
 
   li {
     font-size: 0.9rem;
+  }
+
+  td {
+    font-size: 1rem;
   }
 }
 
@@ -367,5 +385,9 @@ table{
 
   #python-wrapper {
     width: 30vw;
+  }
+
+  td {
+    font-size: 1.2rem;
   }
 }
