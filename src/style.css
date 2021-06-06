@@ -15,6 +15,11 @@
 
 */
 
+td>a:hover{
+  background-color: orangered;
+  color: white;
+}
+
 p {
   max-width: 70ch;
 }
