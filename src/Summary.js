@@ -48,8 +48,15 @@ export default function Summary() {
             >
               keyword retrieval
             </a>{' '}
-            function. For coding my first webscraper, I learnt basics of Python
-            by following the tutorials in{' '}
+            function. For coding{' '}
+            <a
+              href="https://replit.com/@AlperenAtik/ParklarBizimScraper"
+              target="_blank"
+              className="text-link"
+            >
+              my first well-developed webscraper{' '}
+            </a>
+            , I learnt the basics of Python by following the tutorials in{' '}
             <a
               href="https://www.codecademy.com/"
               className="text-link"
@@ -78,7 +85,7 @@ export default function Summary() {
             <a
               href="https://replit.com/@AlperenAtik/linkspr-explorer"
               className="text-link"
-              target="blank"
+              target="_blank"
             >
               {' '}
               academic journals
@@ -87,7 +94,7 @@ export default function Summary() {
             <a
               href="https://replit.com/@AlperenAtik/Bianet-English-Archive-Search"
               className="text-link"
-              target="blank"
+              target="_blank"
             >
               news portals
             </a>{' '}
@@ -95,6 +102,7 @@ export default function Summary() {
             <a
               href="https://replit.com/@AlperenAtik/The-New-Yorker"
               className="text-link"
+              target="_blank"
             >
               {' '}
               popular magazines
@@ -105,24 +113,27 @@ export default function Summary() {
           <p>
             {' '}
             My web-developer adventure started after completing freecodecamp's
-            "Responsive Design" certificate. The first web app I designed was a{' '}
+            "Responsive Design" tutorial and projects. The first web app I
+            designed was a{' '}
             <a
               href="https://palegreenstimulatingdos--alperenatik.repl.co/"
-              target="blank"
+              target="_blank"
               className="text-link"
             >
               Flask website
             </a>{' '}
-            which presents results from my webscrapers.Currently, I am learning
+            which presents results from my webscrapers. Currently, I am learning
             ReactJs and preparing{' '}
             <a
               href="https://codepen.io/alperen-atik/"
-              target="blank"
+              target="_blank"
               className="text-link"
             >
               projects
             </a>{' '}
-            for freecodecamp's "Front End Developer" certification.{' '}
+            for freecodecamp's "Front End Developer" certification. In future, I
+            want to shape my skills for MERN (MongoDB, Express, React, Node.js)
+            and alternative Flask-React stacks.{' '}
           </p>
         </div>
       </div>

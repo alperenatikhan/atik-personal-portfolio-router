@@ -178,12 +178,12 @@ i:hover {
   background: -webkit-linear-gradient(
     to top,
     #f1f2b5,
-    #135058
+    #121313
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
     #f1f2b5,
-    #135058
+    #1b289b
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border: 2px solid white;
 }

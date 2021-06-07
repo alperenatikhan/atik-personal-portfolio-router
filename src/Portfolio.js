@@ -104,18 +104,61 @@ export default function Portfolio() {
                 retrieving information from scientific articles - such as
                 abstracts, author names, doi numbers and download links. I coded
                 webscrapers for the most prestigious academic portals such as
-                <a href= "https://replit.com/@AlperenAtik/Tandf-explorer-1" className="text-link" target="_blank"> TandfOnline </a> and <a href="https://replit.com/@AlperenAtik/linkspr-explorer" className="text-link" target="_blank">LinkSpringer</a>.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong> Job Search:</strong> I currently use my own webscraper
-                for searching job offers in web-portals.
+                <a
+                  href="https://replit.com/@AlperenAtik/Tandf-explorer-1"
+                  className="text-link"
+                  target="_blank"
+                >
+                  {' '}
+                  TandfOnline{' '}
+                </a>{' '}
+                and{' '}
+                <a
+                  href="https://replit.com/@AlperenAtik/linkspr-explorer"
+                  className="text-link"
+                  target="_blank"
+                >
+                  LinkSpringer
+                </a>
+                . Later, I coded a webscraper for retrieving results in{' '}
+                <a
+                  href="https://replit.com/@AlperenAtik/DergiParkScraper"
+                  className="text-link"
+                  target="_blank"
+                >
+                  Dergipark
+                </a>{' '}
+                - Turkey's central index for academic journals.
               </p>
             </li>
           </ol>
 
           <h4 className="section-subtitle">Flask Websites</h4>
+
+          <ol>
+            <li>
+              <p>
+                <strong> Database Search for Academic Journals:</strong> I
+                developed a simple{' '}
+                <a
+                  href="https://replit.com/@AlperenAtik/FlaskRss"
+                  className="text-link"
+                  target="_blank"
+                >
+                  Flask website
+                </a>{' '}
+                for searching in the collection of tens of thousands of results
+                from my previously aggragated webscrapers. For formatting the
+                sqlite database, I used Python's "Pandas" library in "Jupyter
+                Notebooks".{' '}
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong> RSS Reader:</strong>
+              </p>
+            </li>
+          </ol>
         </div>
       </div>
     </section>
