@@ -155,7 +155,16 @@ export default function Portfolio() {
             </li>
             <li>
               <p>
-                <strong> RSS Reader:</strong>
+                <strong> RSS Reader:</strong> By using Flask, I tried to code a{' '}
+                <a
+                  href="https://replit.com/@AlperenAtik/FlaskRss"
+                  className="text-link"
+                  target="_blank"
+                >
+                  daily news website
+                </a>
+                . In this project, I played with the RSS reader functions of
+                Python's webscraping libraries.
               </p>
             </li>
           </ol>
