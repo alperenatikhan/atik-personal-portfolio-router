@@ -21,21 +21,21 @@ export default function App() {
               <div className="nav-items">
                 <li>
                   {' '}
-                  <i className="fas fa-id-card" />
-                  <Link to="/">Summary</Link>
+                  
+                  <Link to="/"><i className="fas fa-id-card" />Summary</Link>
                 </li>
               </div>
               <div className="nav-items">
                 <li>
                   {' '}
-                  <i className="fas fa-store" />
-                  <Link to="/portfolio">Portfolio</Link>
+                  
+                  <Link to="/portfolio"><i className="fas fa-store" />Portfolio</Link>
                 </li>
               </div>
               <div className="nav-items">
                 <li>
-                  <i className="fas fa-globe" />
-                  <Link to="/contact">Contact</Link>
+                 
+                  <Link to="/contact"> <i className="fas fa-globe" />Contact</Link>
                 </li>
               </div>
             </ul>
