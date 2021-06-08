@@ -164,7 +164,8 @@ export default function Portfolio() {
                   daily news website
                 </a>
                 . In this project, I played with the RSS reader functions of
-                Python's webscraping libraries.
+                Python's webscraping libraries. In future, I want to improve the user interactions and visual design by using React.
+      
               </p>
             </li>
           </ol>
