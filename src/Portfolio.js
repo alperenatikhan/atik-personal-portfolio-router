@@ -74,7 +74,7 @@ export default function Portfolio() {
                 <strong> Weather App:</strong> By using OpenWeather API, I made
                 a weather website. Currently, I have been working on
                 location-based weather forecasts and results from the major
-                mega-cities.{' '}
+                mega-cities. The <a href="react-weather-app-draft.stackblitz.io/" className= "text-link">live version  </a> is now available.
               </p>
             </li>
           </ol>
