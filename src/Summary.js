@@ -1,4 +1,5 @@
 import React from 'react';
+import Typing from 'react-typing-animation';
 
 export default function Summary() {
   return (
@@ -13,9 +14,9 @@ export default function Summary() {
           />
           <div className="header-space" id="prime-title">
             <h2 className="section-title"> Short Bio </h2>
-            <h4 className="section-subtitle">
+            <Typing><h4 className="section-subtitle">
               Researcher, Journalist, <span id="developer-span">Developer</span>
-            </h4>
+            </h4></Typing>
           </div>
         </div>
         <div className="text-space">
