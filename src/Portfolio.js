@@ -1,4 +1,5 @@
 import React from 'react';
+import Typing from 'react-typing-animation';
 
 export default function Portfolio() {
   return (
@@ -12,7 +13,7 @@ export default function Portfolio() {
           />
 
           <div className="header-space">
-            <h2 className="section-title"> ReactJS Projects </h2>
+            <Typing><h2 className="section-title"> ReactJS Projects </h2></Typing>
           </div>
         </div>
         <div className="text-space">
@@ -89,7 +90,7 @@ export default function Portfolio() {
           />
 
           <div className="header-space">
-            <h2 className="section-title"> Python Projects </h2>
+            <Typing><h2 className="section-title"> Python Projects </h2></Typing>
           </div>
         </div>
 
