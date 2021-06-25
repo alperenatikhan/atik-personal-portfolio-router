@@ -1,13 +1,16 @@
 import React from 'react';
+import FadeIn from "react-fade-in";
 
 export default function Contact() {
   return (
     <section className="main" id="contact-page">
+     
       <div className="main-wrapper" id="contact-wrapper"style={{display: "flex", flexDirection:"column", justifyContent:"center", alignItems:"center", backgroundColor:"whitesmoke"}}>
-        <img src="https://i.imgur.com/uCRljQC.png" alt="" style={{width:"40vh", marginBottom: "1rem", borderRadius:"1rem"}}/>
+      <FadeIn transitionDuration="500"><img src="https://i.imgur.com/uCRljQC.png" alt="" style={{width:"40vh", marginBottom: "1rem", borderRadius:"1rem"}}/> </FadeIn>
 
 
         <div className="contact-text-space" style={{marginBottom:"0.7rem"}}>
+          <FadeIn transitionDuration="700">
           <table>
             <tr>
               {' '}
@@ -80,8 +83,10 @@ export default function Contact() {
               </td>{' '}
             </tr>
           </table>
+          </FadeIn>
         </div>
       </div>
+     
     </section>
   );
 }
