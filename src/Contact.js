@@ -6,11 +6,11 @@ export default function Contact() {
     <section className="main" id="contact-page">
      
       <div className="main-wrapper" id="contact-wrapper"style={{display: "flex", flexDirection:"column", justifyContent:"center", alignItems:"center", backgroundColor:"whitesmoke"}}>
-      <FadeIn transitionDuration="500"><img src="https://i.imgur.com/uCRljQC.png" alt="" style={{width:"40vh", marginBottom: "1rem", borderRadius:"1rem"}}/> </FadeIn>
+      <FadeIn transitionDuration="1500"><img src="https://i.imgur.com/uCRljQC.png" alt="" style={{width:"40vh", marginBottom: "1rem", borderRadius:"1rem"}}/> </FadeIn>
 
 
         <div className="contact-text-space" style={{marginBottom:"0.7rem"}}>
-          <FadeIn transitionDuration="700">
+          <FadeIn transitionDuration="3000">
           <table>
             <tr>
               {' '}
