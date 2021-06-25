@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section className="main" id="contact-page">
       <div className="main-wrapper" id="contact-wrapper"style={{display: "flex", flexDirection:"column", justifyContent:"center", alignItems:"center", backgroundColor:"whitesmoke"}}>
-        <img src="https://i.imgur.com/uCRljQC.png" alt="" style={{width:"40vh", marginBottom: "1rem"}}/>
+        <img src="https://i.imgur.com/uCRljQC.png" alt="" style={{width:"40vh", marginBottom: "1rem", borderRadius:"1rem"}}/>
 
 
         <div className="contact-text-space" style={{marginBottom:"0.7rem"}}>
