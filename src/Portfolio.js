@@ -30,7 +30,7 @@ export default function Portfolio() {
   </li>
 
   <li>
-    <p><strong>RSS Daily News:</strong> I coded a daily news website by combining the Guardian RSS feed with Rss2Json API. For retrieving the relevant photos I used the Unsplash API. The most recent <a href="https://rss-news-app.netlify.app/" className= "text-link" target="_blank">Netlify app</a> as well as <a href="https://rss-daily-news.stackblitz.io/" className= "text-link" target="_blank">Stackblitz code</a> and <a href="https://github.com/alperenatikhan/rss-daily-news" className= "text-link" target="_blank"> Github repository</a> are now open to access</p>
+    <p><strong>RSS Daily News:</strong> I coded a daily news website by combining the Guardian RSS feed with rss2json API. For retrieving the relevant photos I used the Unsplash API. The most recent <a href="https://rss-news-app.netlify.app/" className= "text-link" target="_blank">Netlify app</a> as well as <a href="https://rss-daily-news.stackblitz.io/" className= "text-link" target="_blank">Stackblitz code</a> and <a href="https://github.com/alperenatikhan/rss-daily-news" className= "text-link" target="_blank"> Github repository</a> are now open to access</p>
 
     </li>
 
