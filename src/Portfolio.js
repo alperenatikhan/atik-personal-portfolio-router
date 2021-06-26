@@ -17,6 +17,39 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="text-space">
+
+        <h4 className="section-subtitle">Individual Projects</h4>
+
+<ol>
+  <li>
+    <p>
+      <strong> Weather App:</strong> By using the OpenWeather API and Unsplash API I made
+      a weather website. Currently, I have been working on
+      location-based weather forecasts, possible ways of linking the Skyscanner and Booking.com APIs. The live code can be seen in the <a href="https://react-weather-app-draft.stackblitz.io/" className= "text-link" target="_blank">Stackblitz version</a>. The most recent <a href="https://atik-weather.netlify.app" className= "text-link" target="_blank">Netlify app</a> and the <a href="https://github.com/alperenatikhan/react-weather-app-draft" className= "text-link" target="_blank">Github repository</a> of the project are now available.
+    </p>
+  </li>
+
+  <li>
+    <p><strong>RSS Daily News:</strong> I coded a daily news website by combining the Guardian RSS feed with Rss2Json API. For retrieving the relevant photos I used the Unsplash API. The most recent <a href="https://rss-news-app.netlify.app/" className= "text-link" target="_blank">Netlify app</a> as well as <a href="https://rss-daily-news.stackblitz.io/" className= "text-link" target="_blank">Stackblitz code</a> and <a href="https://github.com/alperenatikhan/rss-daily-news" className= "text-link" target="_blank"> Github repository</a> are now open to access</p>
+
+    </li>
+
+<li>
+  <p>
+    <strong> Virtual Currency Price Tracker:</strong> This project brings the real-time updating information about the virtual currency prices. For completing this project I used the Coingecko and Quickchart.io APIs. The most recent versions of the
+      <a href="http://virtual-currency-tracker.netlify.app/"className= "text-link" target="_blank"> Netlify app</a>,
+      <a href="https://virtual-currency-tracker.stackblitz.io/" className= "text-link" target="_blank">Stackblitz code</a> and 
+      <a href="https://github.com/alperenatikhan/virtual-currency-tracker"className= "text-link" target="_blank"> Github repository</a> are now available.
+    
+  </p>
+</li>
+
+</ol>
+
+
+
+
+
           <h4 className="section-subtitle">
             Freecodecamp Certificate Projects
           </h4>
@@ -48,37 +81,9 @@ export default function Portfolio() {
                 .
               </p>
             </li>
-
-            <li>
-              <p>
-                {' '}
-                <strong> Drum Machine :</strong> My first experience with state,
-                props and event listeners in ReactJS. This complex project also
-                helped me to refresh my knowledge on CSS basics.{' '}
-              </p>
-            </li>
-
-            <li>
-              <p>
-                {' '}
-                <strong> Calculator :</strong> For solving the calculator
-                challenge, I made use of Bootstrap and React props.{' '}
-              </p>
-            </li>
           </ol>
 
-          <h4 className="section-subtitle">Individual Projects</h4>
-
-          <ol>
-            <li>
-              <p>
-                <strong> Weather App:</strong> By using OpenWeather API, I made
-                a weather website. Currently, I have been working on
-                location-based weather forecasts and results from the major
-                mega-cities. The <a href="react-weather-app-draft.stackblitz.io/" className= "text-link">live version  </a> is now available.
-              </p>
-            </li>
-          </ol>
+         
         </div>
       </div>
       <div className="main-wrapper" id="python-wrapper">
