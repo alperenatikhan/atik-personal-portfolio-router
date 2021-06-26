@@ -188,10 +188,9 @@ i:hover {
 
 section.main {
   display: flex;
+  flex-direction: row;
   justify-content: flex-start;
-  align-content: space;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='700' height='460' preserveAspectRatio='none' viewBox='0 0 700 460'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1026%26quot%3b)' fill='none'%3e%3cpath d='M 0%2c97 C 46.8%2c101.4 140.4%2c117 234%2c119 C 327.6%2c121 374.8%2c104.6 468%2c107 C 561.2%2c109.4 653.6%2c126.2 700%2c131L700 460L0 460z' fill='rgba(220%2c 235%2c 237%2c 0.2)'%3e%3c/path%3e%3cpath d='M 0%2c382 C 35%2c362.6 105%2c274.4 175%2c285 C 245%2c295.6 280%2c428.2 350%2c435 C 420%2c441.8 455%2c329 525%2c319 C 595%2c309 665%2c371.8 700%2c385L700 460L0 460z' fill='rgba(221%2c 225%2c 218%2c 0.2)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1026'%3e%3crect width='700' height='460' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
-  background-size: cover;
+  align-content: space-around;
 }
 
 .header-space {
@@ -247,7 +246,6 @@ i {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
