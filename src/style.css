@@ -15,8 +15,13 @@
 
 */
 
-td>a{
-  font-size: calc(1rem+2vw);
+td>i{
+  font-size:0.8rem;
+}
+
+td>a>strong{
+  font-size: 0.7rem;
+ 
 }
 
 td > a:hover {
@@ -334,6 +339,14 @@ i {
   td {
     font-size: 0.6rem;
   }
+
+  td>i{
+    font-size: 0.8rem;
+  }
+.social-platform{
+  visibility:hidden;
+}
+
 }
 
 @media only screen and (min-width: 521px) {
@@ -353,6 +366,15 @@ i {
   td {
     font-size: 1rem;
   }
+  td>a>strong{
+    font-size: 1rem;
+  }
+
+  td>i{
+    font-size: 1.3rem;
+  }
+   
+
 }
 
 @media only screen and (min-width: 820px) {
@@ -389,7 +411,14 @@ i {
     width: 30vw;
   }
 
+  td>i{
+    font-size:1.3rem;
+  }
+
   td {
     font-size: 1.2rem;
+  }
+  td>a>strong{
+    font-size:1.25rem;
   }
 }

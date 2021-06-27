@@ -14,9 +14,13 @@ export default function Summary() {
           />
           <div className="header-space" id="prime-title">
             <h2 className="section-title"> Short Bio </h2>
-            <Typing><h4 className="section-subtitle">
-              Researcher, Journalist, <span id="developer-span">Developer</span>
-            </h4></Typing>
+            <h4 className="section-subtitle">
+              <Typing>
+                {' '}
+                Researcher, Journalist,{' '}
+                <span id="developer-span">Developer</span>
+              </Typing>
+            </h4>
           </div>
         </div>
         <div className="text-space">

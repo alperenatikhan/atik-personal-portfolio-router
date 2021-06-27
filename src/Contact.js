@@ -34,61 +34,61 @@ export default function Contact() {
                 <tr>
                   <td>
                     <i class="fab fa-github" />
-                    <strong>Github</strong>
+                   <span className="social-platform"> Github</span>
                   </td>
                   <td>
                     <a href="http://github.com/alperenatikhan/" target="_blank">
-                      alperenatikhan
+                      <strong>alperenatikhan</strong>
                     </a>
                   </td>
                 </tr>
                 <tr>
                   <td>
                     <i class="fab fa-facebook" />
-                    <strong>Facebook</strong>
+                    <span className="social-platform"> Facebook</span>
                   </td>
                   <td>
                     <a
                       href="https://pl-pl.facebook.com/alperen.atik"
                       target="_blank"
                     >
-                      Alperen Atik
+                      <strong>Alperen Atik</strong>
                     </a>
                   </td>
                 </tr>
                 <tr>
-                  <td>
-                    <i class="fab fa-whatsapp" />
-                    <strong>WhatsApp</strong>
+                  <td >
+                    <i className="fab fa-whatsapp" />
+                    <span className="social-platform"> WhatsApp</span>
                   </td>
                   <td>
                     <a href="https://wa.me/48731166245" target="_blank">
-                      0048 731 166 245
+                      <strong>0048 731 166 245</strong>
                     </a>
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td >
                     <i class="fas fa-at" />
-                    <strong>E-mail</strong>
+                   <span className="social-platform"> E-mail</span>
                   </td>
                   <td>
                     <a href="mailto:alperenmyung@gmail.com" target="_blank">
-                      alperenmyung@gmail.com
+                      <strong>alperenmyung@gmail.com</strong>
                     </a>
                   </td>
                 </tr>
                 <tr>
                   <td>
                     <i class="fa fa-skype" />
-                    <strong>Skype</strong>
+                    <span className="social-platform"> Skype</span>
                   </td>
                   <td>
                     <a
                       href="http://join.skype.com/BPFTsBYJjDMs"
                       target="_blank"
                     >
-                      alperen.myung
+                      <strong>alperen.myung</strong>
                     </a>
                   </td>
                 </tr>
