@@ -15,8 +15,8 @@
 
 */
 
-td > a{
-font-size:3.5vw;
+td>a{
+  font-size: calc(1rem+2vw);
 }
 
 td > a:hover {
