@@ -15,6 +15,10 @@
 
 */
 
+td > a{
+font-size:3.5vw;
+}
+
 td > a:hover {
   background-color: orangered;
   color: white;
@@ -226,7 +230,7 @@ section.main {
   padding: 1rem 1rem 0.5rem 1rem;
   width: 80vw;
   border-radius: 1rem;
-  background: rgba(244, 244, 181, 0.18);
+ background-color: whitesmoke;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
@@ -242,7 +246,7 @@ i {
   margin-top: 0.5rem;
   padding: 1rem 1rem 0.5rem 1rem;
   border-radius: 1rem;
-  background: rgba(244, 244, 181, 0.18);
+  background-color: whitesmoke;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
