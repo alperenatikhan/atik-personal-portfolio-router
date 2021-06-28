@@ -15,30 +15,36 @@ export default function ClickContactForm() {
         {' '}
         <table className="contact-table">
           <tr className="contact-row">
-            <td>
+            <td className="label-cell">
               <label for="exampleInputEmail1">Name: </label>{' '}
             </td>{' '}
             <td>
-              <input />{' '}
+              <input type="text" placeholder="Type Your Name" required />{' '}
             </td>
           </tr>
           <tr className="contact-row">
-            <td>
+            <td className="label-cell">
               <label for="exampleInputEmail1">E-mail: </label>
             </td>
             <td>
-              <input />{' '}
+              <input placeholder="Type Your E-mail" required />{' '}
             </td>
           </tr>
           <tr className="contact-row">
-            <td style={{ display: 'flex' }}>
+            <td className="label-cell">
               <label for="exampleInputEmail1">Message: </label>{' '}
             </td>{' '}
             <td>
-              <textarea />{' '}
+              <textarea placeholder="Type Your Message" required />{' '}
             </td>
-          </tr>
-          <button />{' '}
+           
+            </tr>
+
+            <tr>
+              <td colspan="2" ><button style={{margin:"1rem 30%"}}>Send Message</button></td>
+            </tr>
+    
+        
         </table>
       </form>{' '}
     </div>
