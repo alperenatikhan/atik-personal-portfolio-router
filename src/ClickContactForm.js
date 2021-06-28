@@ -55,7 +55,7 @@ export default function ClickContactForm() {
 
           <tr>
             <td colspan="2">
-              <button style={{ margin: '1rem 2rem' }}>
+              <button style={{ margin: '1rem 2.5rem' }}>
                 <i class="fas fa-paper-plane" />Submit Your Message
               </button>
             </td>
