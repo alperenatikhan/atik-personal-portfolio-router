@@ -33,7 +33,7 @@ export default function ClickContactForm() {
             </td>
             <td>
               <input
-                type="e-mail"
+                type="email"
                 name="contact-email"
                 placeholder="Type Your E-mail"
                 required
@@ -55,7 +55,9 @@ export default function ClickContactForm() {
 
           <tr>
             <td colspan="2">
-              <button style={{ margin: '1rem 30%' }}>Send Message</button>
+              <button style={{ margin: '1rem 2rem' }}>
+                <i class="fas fa-paper-plane" />Submit Your Message
+              </button>
             </td>
           </tr>
         </table>

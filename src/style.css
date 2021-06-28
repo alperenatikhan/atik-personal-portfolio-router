@@ -26,6 +26,11 @@ label {
   font-family: Lora;
 }
 
+button{
+  padding:0.5rem;
+  width:15rem;
+}
+
 input {
   font-size: 0.8rem;
   margin: 0.5rem;
