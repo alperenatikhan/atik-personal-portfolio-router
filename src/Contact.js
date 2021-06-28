@@ -32,8 +32,9 @@ export default function Contact() {
             }}
           />{' '}
         </FadeIn>
-
+<FadeIn transitionDuration="2000" >
         <button  onClick={() => setIsContactFormClicked(!isContactFormClicked)} style={{margin:"1rem"}}> <i class="fas fa-mail-bulk"></i> {isContactFormClicked? "Close": "Open"} Contact Form </button>
+        </FadeIn>
 
         {isContactFormClicked && <FadeIn><ClickContactForm /> </FadeIn>}
 
