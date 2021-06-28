@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
+import ClickContactForm from './ClickContactForm';
 import FadeIn from 'react-fade-in';
 
 export default function Contact() {
+  let [isContactFormClicked, setIsContactFormClicked] = useState(false);
+
+  
+
   return (
     <section className="main" id="contact-page">
       <div
@@ -19,6 +24,7 @@ export default function Contact() {
           <img
             src="https://i.imgur.com/uCRljQC.png"
             alt=""
+            onClick={() => setIsContactFormClicked(!isContactFormClicked)}
             style={{
               width: '40vh',
               marginBottom: '1rem',
@@ -27,6 +33,8 @@ export default function Contact() {
           />{' '}
         </FadeIn>
 
+        {isContactFormClicked && <ClickContactForm />}
+
         <div className="contact-text-space" style={{ marginBottom: '0.7rem' }}>
           <FadeIn transitionDuration="3000">
             <table>
@@ -34,7 +42,7 @@ export default function Contact() {
                 <tr>
                   <td>
                     <i class="fab fa-github" />
-                   <span className="social-platform"> Github</span>
+                    <span className="social-platform"> Github</span>
                   </td>
                   <td>
                     <a href="http://github.com/alperenatikhan/" target="_blank">
@@ -57,7 +65,7 @@ export default function Contact() {
                   </td>
                 </tr>
                 <tr>
-                  <td >
+                  <td>
                     <i className="fab fa-whatsapp" />
                     <span className="social-platform"> WhatsApp</span>
                   </td>
@@ -68,9 +76,9 @@ export default function Contact() {
                   </td>
                 </tr>
                 <tr>
-                  <td >
+                  <td>
                     <i class="fas fa-at" />
-                   <span className="social-platform"> E-mail</span>
+                    <span className="social-platform"> E-mail</span>
                   </td>
                   <td>
                     <a href="mailto:alperenmyung@gmail.com" target="_blank">
