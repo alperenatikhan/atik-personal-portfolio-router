@@ -5,8 +5,6 @@ import FadeIn from 'react-fade-in';
 export default function Contact() {
   let [isContactFormClicked, setIsContactFormClicked] = useState(false);
 
-  
-
   return (
     <section className="main" id="contact-page">
       <div
@@ -22,21 +20,33 @@ export default function Contact() {
       >
         <FadeIn transitionDuration="1500">
           <img
+            className="thisAlperenAtik"
             src="https://i.imgur.com/uCRljQC.png"
             alt=""
             onClick={() => setIsContactFormClicked(!isContactFormClicked)}
             style={{
-              width: '40vh',
-              marginBottom: '1rem',
+              width: '15rem',
+              margin: '0.5rem 0 0.5rem 0',
               borderRadius: '1rem'
             }}
           />{' '}
         </FadeIn>
-<FadeIn transitionDuration="2000" >
-        <button  onClick={() => setIsContactFormClicked(!isContactFormClicked)} style={{margin:"1rem"}}> <i class="fas fa-mail-bulk"></i> {isContactFormClicked? "Close": "Open"} Contact Form </button>
+        <FadeIn transitionDuration="2000">
+          <button
+            onClick={() => setIsContactFormClicked(!isContactFormClicked)}
+            style={{ margin: '1rem' }}
+          >
+            {' '}
+            <i class="fas fa-mail-bulk" />{' '}
+            {isContactFormClicked ? 'Close' : 'Open'} Contact Form{' '}
+          </button>
         </FadeIn>
 
-        {isContactFormClicked && <FadeIn><ClickContactForm /> </FadeIn>}
+        {isContactFormClicked && (
+          <FadeIn>
+            <ClickContactForm />{' '}
+          </FadeIn>
+        )}
 
         <div className="contact-text-space" style={{ marginBottom: '0.7rem' }}>
           <FadeIn transitionDuration="3000">
