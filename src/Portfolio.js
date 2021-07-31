@@ -41,8 +41,8 @@ export default function Portfolio() {
                 >
                   Puppeteer webscraper
                 </a>{' '}
-                which focuses on the announcements in OLX.pl. Later, I collected
-                the results under a{' '}
+                which focuses on the recent offers published in OLX.pl. Later, I
+                collected the results under a{' '}
                 <a
                   href="https://dogsofpoland-default-rtdb.europe-west1.firebasedatabase.app/.json"
                   className="text-link"
