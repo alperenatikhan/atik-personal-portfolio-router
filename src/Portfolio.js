@@ -24,9 +24,16 @@ export default function Portfolio() {
           <ol>
             <li>
               <p>
-                <strong>Dogs of Poland:</strong> In this project, I coded a "dog
-                adoption" web app. For retrieving the announcements, I have
-                written a{' '}
+                <strong>Dogs of Poland:</strong> In this project, I coded a{' '}
+                <a
+                  href="https://dogsofpoland-default-rtdb.europe-west1.firebasedatabase.app/.json"
+                  className="text-link"
+                  target="_blank"
+                >
+                  {' '}
+                  "dog adoption"{' '}
+                </a>
+                web app. For retrieving the announcements, I have written a{' '}
                 <a
                   href="https://github.com/alperenatikhan/dogo/blob/main/imgscraper.js"
                   className="text-link"
