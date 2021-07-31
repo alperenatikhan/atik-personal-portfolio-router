@@ -90,6 +90,40 @@ export default function Portfolio() {
 
             <li>
               <p>
+                <strong> Dynamic Wikipedia Explorer:</strong> By using the
+                Wikipedia REST API, I coded a{' '}
+                <a
+                  href="https://atik-wiki.netlify.app/"
+                  className="text-link"
+                  target="_blank"
+                >
+                  dynamic search app{' '}
+                </a>{' '}
+                which brings the article summary and main photo. In future, I
+                will use the experience from this app for bringing up necessary
+                information in my following projects.
+                . The working{' '}
+                <a
+                  href="https://atik-wiki.netlify.app"
+                  className="text-link"
+                  target="_blank"
+                >
+                  Netlify app
+                </a>{' '}
+                and the{' '}
+                <a
+                  href="https://codesandbox.io/s/green-cdn-mxdpu"
+                  className="text-link"
+                  target="_blank"
+                >
+                CodeSandBox
+                </a>{' '}
+                of the project is open to access.
+              </p>
+            </li>
+
+            <li>
+              <p>
                 <strong> Weather App:</strong> By using the OpenWeather API and
                 Unsplash API I made a weather website. Currently, I have been
                 working on location-based weather forecasts, possible ways of
