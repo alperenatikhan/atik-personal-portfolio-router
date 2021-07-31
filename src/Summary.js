@@ -43,9 +43,9 @@ export default function Summary() {
               {' '}
               Independent Journalist{' '}
             </a>{' '}
-            and a budding Front End Developer. During the research for my doctoral
-            dissertation, I had to analyse more than four hundred documents. For
-            my research, I wrote a webscraper with a{' '}
+            and a Junior Front-end Developer. During the research for my
+            doctoral dissertation, I had to analyse more than four hundred
+            documents. For my research, I wrote a webscraper with a{' '}
             <a
               href="https://replit.com/@AlperenAtik/parklarbizimfinder"
               className="text-link"
