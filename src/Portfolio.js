@@ -24,6 +24,51 @@ export default function Portfolio() {
           <ol>
             <li>
               <p>
+                <strong>Dogs of Poland:</strong> In this project, I coded a "dog
+                adoption" web app. For retrieving the announcements, I have
+                written a{' '}
+                <a href="https://github.com/alperenatikhan/dogo/blob/main/imgscraper.js">
+                  Puppeteer webscraper
+                </a>{' '}
+                and collected the results under a{' '}
+                <a
+                  href="https://dogsofpoland-default-rtdb.europe-west1.firebasedatabase.app/.json"
+                  target="_blank"
+                >
+                  Firebase Real-Time Database
+                </a>{' '}
+                which serves as the REST API of this project. In addition, I
+                used <a>Bulma</a> for styling the website. The most recent{' '}
+                <a
+                  href="https://dogsofpoland.netlify.app/"
+                  className="text-link"
+                  target="_blank"
+                >
+                  Netlify app
+                </a>{' '}
+                as well as{' '}
+                <a
+                  href="https://rss-daily-news.stackblitz.io/"
+                  className="text-link"
+                  target="_blank"
+                >
+                  Stackblitz code
+                </a>{' '}
+                and{' '}
+                <a
+                  href="https://github.com/alperenatikhan/rss-daily-news"
+                  className="text-link"
+                  target="_blank"
+                >
+                  {' '}
+                  Github repository
+                </a>{' '}
+                are now open to access
+              </p>
+            </li>
+
+            <li>
+              <p>
                 <strong> Weather App:</strong> By using the OpenWeather API and
                 Unsplash API I made a weather website. Currently, I have been
                 working on location-based weather forecasts, possible ways of
