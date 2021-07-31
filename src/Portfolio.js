@@ -33,12 +33,21 @@ export default function Portfolio() {
                 and collected the results under a{' '}
                 <a
                   href="https://dogsofpoland-default-rtdb.europe-west1.firebasedatabase.app/.json"
+                  className="text-link"
                   target="_blank"
                 >
                   Firebase Real-Time Database
                 </a>{' '}
                 which serves as the REST API of this project. In addition, I
-                used <a>Bulma</a> for styling the website. The most recent{' '}
+                used{' '}
+                <a
+                  href="https://bulma.io/"
+                  className="text-link"
+                  target="_blank"
+                >
+                  Bulma
+                </a>{' '}
+                for styling the website. The actual{' '}
                 <a
                   href="https://dogsofpoland.netlify.app/"
                   className="text-link"
@@ -48,15 +57,15 @@ export default function Portfolio() {
                 </a>{' '}
                 as well as{' '}
                 <a
-                  href="https://rss-daily-news.stackblitz.io/"
+                  href="https://ghjch.csb.app/"
                   className="text-link"
                   target="_blank"
                 >
-                  Stackblitz code
+                  CodeSandbox
                 </a>{' '}
                 and{' '}
                 <a
-                  href="https://github.com/alperenatikhan/rss-daily-news"
+                  href="https://github.com/alperenatikhan/bulma-dogo"
                   className="text-link"
                   target="_blank"
                 >
