@@ -27,7 +27,11 @@ export default function Portfolio() {
                 <strong>Dogs of Poland:</strong> In this project, I coded a "dog
                 adoption" web app. For retrieving the announcements, I have
                 written a{' '}
-                <a href="https://github.com/alperenatikhan/dogo/blob/main/imgscraper.js">
+                <a
+                  href="https://github.com/alperenatikhan/dogo/blob/main/imgscraper.js"
+                  className="text-link"
+                  target="_blank"
+                >
                   Puppeteer webscraper
                 </a>{' '}
                 and collected the results under a{' '}
