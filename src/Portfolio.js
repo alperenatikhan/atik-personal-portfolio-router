@@ -26,7 +26,7 @@ export default function Portfolio() {
               <p>
                 <strong>Dogs of Poland:</strong> In this project, I coded a{' '}
                 <a
-                  href="https://dogsofpoland-default-rtdb.europe-west1.firebasedatabase.app/.json"
+                  href="https://https://dogsofpoland.netlify.app/"
                   className="text-link"
                   target="_blank"
                 >
